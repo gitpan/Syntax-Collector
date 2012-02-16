@@ -1,0 +1,42 @@
+---
+abstract: 'collect a bundle of modules into one'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::Exception: 0
+  Test::More: 0.61
+  Test::Warn: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Syntax::Collector
+name: Syntax-Collector
+no_index:
+  directory:
+    - examples
+    - inc
+    - t
+    - xt
+requires:
+  Carp: 0
+  Module::Runtime: 0
+  PerlX::Maybe: 0
+  Sub::Name: 0
+  Sub::Uplevel: 0
+  perl: 5.8.0
+  strict: 0
+  syntax: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Syntax-Collector
+  homepage: https://metacpan.org/release/Syntax-Collector
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/tobyink/p5-syntax-collector
+version: 0.001
