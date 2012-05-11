@@ -29,7 +29,6 @@ requires:
   Module::Runtime: 0
   PerlX::Maybe: 0
   Sub::Name: 0
-  Sub::Uplevel: 0
   perl: 5.8.0
   strict: 0
   syntax: 0
@@ -39,4 +38,4 @@ resources:
   homepage: https://metacpan.org/release/Syntax-Collector
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-syntax-collector
-version: 0.002
+version: 0.003

@@ -125,6 +125,10 @@ DESCRIPTION
       __FILE__
       __END__
 
+    "IMPORT" is passed a copy of the same arguments that were passed to
+    "import". "import" uses named parameters, including support for an
+    *into* parameter; "IMPORT" should probably do the same.
+
     As well as providing an "import" method for your collection,
     Syntax::Collector also provides a "modules" method, which can be called
     to find out which modules a collection includes. Called in list context,
@@ -132,10 +136,6 @@ DESCRIPTION
     "{ module => version }" hash.
 
 CAVEATS
-    This module does some pretty tricky stuff with Sub::Uplevel and "eval".
-    It is possible that (especially in the case of convoluted OVERSTUFF),
-    certain "use" lines may break.
-
     You should not rely on the "use" lines being processed in any particular
     order.
 
