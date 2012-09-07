@@ -5,6 +5,11 @@ Created:      2012-02-15
 Home page:    <https://metacpan.org/release/Syntax-Collector>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Syntax-Collector>
 
+0.004  2012-09-07
+
+ - Clean up documentation.
+ - Drop PerlX::Maybe dependency.
+
 0.003  2012-05-11
 
  - (Addition) Support an 'into' parameter.
