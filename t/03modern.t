@@ -1,21 +1,19 @@
-{
+BEGIN {
 	package Local::Test::Syntax;
-	BEGIN {
-		sub IMPORT {
-			no strict 'refs';
-			my $caller = caller;
-			*{"$caller\::uc"} = sub ($) { lc $_[0] };
-			*{"$caller\::maybe"} = sub {
-				return @_ if defined $_[0] && defined $_[1];
-				shift; shift; return @_;
-			};
-		}
-	}
-	use Syntax::Collector -collect => q/
+	
+	use Syntax::Collector q/
 		use strict 0;
 		use warnings 0 FATAL => 'all';
 		use Scalar::Util 0 qw(blessed);
 	/;
+	
+	our @EXPORT = qw( uc maybe );
+	
+	sub uc ($) { lc $_[0] };
+	sub maybe {
+		return @_ if defined $_[0] && defined $_[1];
+		shift; shift; return @_;
+	}
 }
 
 {
