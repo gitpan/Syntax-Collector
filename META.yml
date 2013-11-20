@@ -25,10 +25,10 @@ optional_features: {}
 provides:
   Syntax::Collector:
     file: lib/Syntax/Collector.pm
-    version: 0.005
+    version: 0.006
   Syntax::Collector::Collection:
     file: lib/Syntax/Collector.pm
-    version: 0.005
+    version: 0.006
 requires:
   Exporter::Tiny: 0
   Module::Runtime: 0
@@ -39,4 +39,4 @@ resources:
   homepage: https://metacpan.org/release/Syntax-Collector
   license: http://dev.perl.org/licenses/
   repository: https://github.com/tobyink/p5-syntax-collector
-version: 0.005
+version: 0.006

@@ -46,11 +46,11 @@
    "provides" : {
       "Syntax::Collector" : {
          "file" : "lib/Syntax/Collector.pm",
-         "version" : "0.005"
+         "version" : "0.006"
       },
       "Syntax::Collector::Collection" : {
          "file" : "lib/Syntax/Collector.pm",
-         "version" : "0.005"
+         "version" : "0.006"
       }
    },
    "release_status" : "stable",
@@ -68,5 +68,5 @@
          "web" : "https://github.com/tobyink/p5-syntax-collector"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }

@@ -12,6 +12,7 @@ README
 SIGNATURE
 dist.ini
 doap.ttl
+examples/MyTest.pm
 examples/basic.pl
 inc/Test/Fatal.pm
 inc/Test/Requires.pm

@@ -17,6 +17,7 @@ License: GPL-1.0+ or Artistic-1.0
 Files: CONTRIBUTING
  INSTALL
  LICENSE
+ examples/MyTest.pm
  examples/basic.pl
  inc/Test/Fatal.pm
  inc/Test/Requires.pm

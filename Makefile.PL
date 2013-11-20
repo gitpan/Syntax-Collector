@@ -24,8 +24,8 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.61 } },
                       },
   "provides"       => {
-                        "Syntax::Collector" => { file => "lib/Syntax/Collector.pm", version => 0.005 },
-                        "Syntax::Collector::Collection" => { file => "lib/Syntax/Collector.pm", version => 0.005 },
+                        "Syntax::Collector" => { file => "lib/Syntax/Collector.pm", version => 0.006 },
+                        "Syntax::Collector::Collection" => { file => "lib/Syntax/Collector.pm", version => 0.006 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -40,7 +40,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Syntax-Collector/project",
                       },
-  "version"        => 0.005,
+  "version"        => 0.006,
 };
 
 my %dynamic_config;
